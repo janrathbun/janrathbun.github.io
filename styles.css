@@ -71,39 +71,40 @@ body {
   align-items: center;
 }
 
+#tag-box #loving-memory {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Allura', cursive;
+  font-weight: bold;
+  color: #080042;
+}
+
 #tag-box h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 5.5em;
   font-family: 'Allura', cursive;
-  color: #09004e;
+  color: #080042;
 }
 
-
-/* #tagline a {
-  color: black;
-}
-
-#tagline a:hover {
-  text-decoration: none;
-}
-
-#email {
+#tagline {
   text-align: center;
-  font-size: 1.5em;
-  margin-top: 1em;
-  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Allura', cursive;
+  color: #080042;
+  margin-top: 0.4em;
 }
 
-#email a {
-  color: black;
+#tagline .item {
+  margin-left: 0.4em;
+  margin-right: 0.4em;
 }
-
-#email a:hover {
-  text-decoration: none;
-} */
 
 
 @media (max-width: 768px) {
+  #tag-box #loving-memory {
+    font-size: 2em;
+  }
+
   #tag-box h1 {
     font-size: 3.5em;
   }
