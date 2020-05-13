@@ -156,6 +156,7 @@ a:hover {
   border: #080042 solid;
   border-radius: 0.4em;
   transition: background ease 0.5s;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .action-btn a:hover {
